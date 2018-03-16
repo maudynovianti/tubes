@@ -1,0 +1,16 @@
+{
+    "barang":[
+        {
+            "nmitem":"Baju koko merah marun A",
+            "jnsitem":"Baju koko",
+            "harga":"Rp 180.000,-",
+            "jlhbeli":"2",
+        },
+        {
+            "nmitem":"Baju koko hitam A",
+            "jnsitem":"Baju koko",
+            "harga":"Rp 150.000,-",
+            "jlhbeli":"1",
+        }
+    ]
+}

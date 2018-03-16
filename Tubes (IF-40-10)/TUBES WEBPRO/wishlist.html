@@ -1,0 +1,207 @@
+<html>
+	<head>
+		<title>Wishlist</title>
+
+		<link rel="shortcut icon" href="icon/iconpin.png">
+		<link rel="stylesheet" type="text/css" href="css/boostrap.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/boostrap-grid.css">
+		<link rel="stylesheet" type="text/css" href="css/boostrap-grid.min.css">
+		<link rel="stylesheet" type="text/css" href="css/boostrap-reboot.css">
+		<link rel="stylesheet" type="text/css" href="css/boostrap-reboot.min.css">	
+ 		<link rel="stylesheet" type="text/css" href="css/style.css"></link>
+		<link rel="stylesheet" href="view.css">
+		
+		<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+
+		<script type="text/javascript" src="js/boostrap.min.js"></script>
+
+		<style>
+			#barang{
+               width: 75%;
+               border-radius: 10px;
+               background-color: #d2af9fb8;
+               border: 2px solid white;
+               margin-left: 180px;
+            }
+            #barang table{
+                width: 90%;
+                font-family: Footlight MT Light;
+                font-size: 18px;
+                color: black;
+            }
+            table thead th{
+                text-align: center;
+                padding-top: 10px;
+                padding-bottom: 20px;
+            }
+            table tbody th{
+                text-align: center;
+            }
+            table td{
+                text-align: left;
+            }
+            button{
+                height: 50px;
+                padding-left: 7px;
+                padding-right: 7px;
+                margin-top: 2.5%;
+                margin: 2%;
+                border-radius: 5px;
+            	font-weight: bold;
+            }
+            #button1{
+                background-color: #d2af9fb8;
+				border: 1px solid #FFDAB9;
+				color: black;
+				font-family: Footlight MT Light;
+				font-size: 18px;
+            }
+            #button1:hover{
+            	background-color: #FFA072;
+				color: white;
+            }
+            #button8{
+                background-color: #d2af9fb8;
+				border: 1px solid #FFDAB9;
+				color: black;
+				font-family: Footlight MT Light;
+				font-size: 18px;
+            }
+            #button8:hover{
+            	background-color: #FFA072;
+				color: white;
+            }
+		</style>
+
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row kata2">
+				<div class="col-sm" style="text-align: center"></div>
+			</div>
+		</div>
+
+		<div class="container">	
+			<div class="row nama">
+				<div class="col-sm-9" style="font-family: Lucida Calligraphy; font-size: 51px"><p>Muslim Galery</p></div>
+				<div class="col-sm-3">
+					<p>
+						<a href="akun" style="color: black; font-family: Pristina; font-size: 21px; text-decoration: none">Akun</a> |
+						<a href="program.html" style="color: black; font-family: Pristina; font-size: 21px; text-decoration: none">Log Out</a> |
+						<a href="pertanyaan.html" style="color: black; font-family: Pristina; font-size: 21px; text-decoration: none">Pertanyaan?</a>
+					</p>
+					<form>
+						<input class="cari" type="text" placeholder="Cari....">
+						<input class="btncari" type="submit" value="Cari" style="font-family: Pristina; font-size: 20px">
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="row title1">
+				<div class="col-sm" style="">
+					<p><img src="icon/iconpin.png" style="height: 30px; padding-right: 7px">- - - My Wishlist - - -<img src="icon/iconpin.png" style="height: 30px; padding-left: 7px"></p>
+				</div>
+			</div>
+		</div>
+
+		<div id="barang">
+			<center>
+				<table>
+					<thead>
+						<tr>
+							<th colspan="4">Item favorite Anda saat ini:</th>
+						</tr>
+					</thead>
+					<tbody>
+                    	<tr>
+                        	<th>Nama Barang</th>
+                        	<th>Jenis Barang</th>
+                        	<th>Harga (per Satuan)</th>
+                        	<th>Jumlah Beli</th>
+                    	</tr>
+                    	<tr>
+                        	<td><p id="nmitem1"></p></td>
+                        	<td><p id="jnsitem1"></p></td>
+                        	<td><p id="harga1"></p></td>
+                        	<td><p id="jlhbeli1"></p></td>
+                    	</tr>
+                    	<tr>
+                        	<td><p id="nmitem2"></p></td>
+                        	<td><p id="jnsitem2"></p></td>
+                        	<td><p id="harga2"></p></td>
+                        	<td><p id="jlhbeli2"></p></td>
+                    	</tr>
+                    	<tr>
+                        	<td><p id="nmitem3"></p></td>
+                        	<td><p id="jnsitem3"></p></td>
+                        	<td><p id="harga3"></p></td>
+                        	<td><p id="jlhbeli3"></p></td>
+                    	</tr>
+                    	<tr>
+                        	<td><p id="nmitem4"></p></td>
+                        	<td><p id="jnsitem4"></p></td>
+                        	<td><p id="harga4"></p></td>
+                        	<td><p id="jlhbeli4"></p></td>
+                    	</tr>
+                    	<tr>
+                        	<td><p id="nmitem5"></p></td>
+                        	<td><p id="jnsitem5"></p></td>
+                        	<td><p id="harga5"></p></td>
+                        	<td><p id="jlhbeli5"></p></td>
+                    	</tr>
+                    	<tr>
+                        	<td><p id="nmitem6"></p></td>
+                        	<td><p id="jnsitem6"></p></td>
+                        	<td><p id="harga6"></p></td>
+                        	<td><p id="jlhbeli6"></p></td>
+                    	</tr>
+                    	<tr>
+                        	<td><p id="nmitem7"></p></td>
+                        	<td><p id="jnsitem7"></p></td>
+                        	<td><p id="harga7"></p></td>
+                        	<td><p id="jlhbeli7"></p></td>
+                    	</tr>
+            		</tbody>
+            	</table>
+        	</center>
+		</div>
+
+		<center>
+			<button onclick="aMuncul()" id="button1">Show List</button>
+        	<button onclick="hideAll()" id="button8">Hide List</button>
+		</center>		
+		
+		<br><br>
+		<center><div class="footer">Copyright &copy; 2018 - All right reserved.</div></center><br>
+	</body>
+</html>
+
+<script>
+    $(document).ready(function () {
+        $.getJSON("myJSON.json",function (data) {
+            console.log(data);
+            var i = 0;
+            	$.each(data.barang, function (i, barang) {
+                $("#nmitem"+i).html(barang.nmitem);
+                $("#jnsitem"+i).html(barang.jnsitem);
+                $("#harga"+i).html(barang.harga);
+                $("#jlhbeli"+i).html(barang.jlhbeli);
+                i++;
+                if(i == 10)
+                {
+                	return false;
+                }
+            })
+        })
+    });
+
+    function aMuncul() {
+        $("#barang").show(1000);
+    }
+    function hideAll() {
+        $("#barang").hide();
+    }
+</script>
